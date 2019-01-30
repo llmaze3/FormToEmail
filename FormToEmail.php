@@ -29,6 +29,6 @@
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $message;
     mail($to, $subject, $message, $headers);
     mail($from,$subject2,$message2,$headers2);
-    header("Location: http://taystytreats.com/conformation.htm");
+    header("Location: http://website.com/conformation.htm");
   }
  ?>
